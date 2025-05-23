@@ -7,14 +7,14 @@ Welcome, Agent! You are working on the MCP Browser Agent project. This document 
 
 ## ⚠️ CRITICAL ENVIRONMENT NOTICE ⚠️
 
-**NO NPM DEPENDENCIES ARE INSTALLED**
+**ZERO PACKAGES ARE INSTALLED**
 
 The environment you're working in has:
-- Node.js and npm available
+- Node.js and npm available (but no packages installed)
+- Python with pip available (also with no packages installed)
 - Basic file system access
-- NO external packages installed (no TypeScript, no Playwright, no Jest, etc.)
 
-You must develop with this limitation in mind.
+Nothing from npm or pip is installed. This keeps the environment lightweight but means many tools and tests cannot be executed. Develop as normal while accounting for these limitations.
 
 ## Development Approach Under Constraints
 
@@ -85,6 +85,8 @@ describe('NavigationTools', () => {
 1. **README.md** - High-level project overview and design document
 2. **DEV_PLAN.md** - Detailed phased development plan (STILL ACCURATE - follow this plan)
 3. **AGENTS.md** - This document
+4. **Update DEV_PLAN.md as you progress** - Check off completed tasks
+5. **Remove obsolete setup steps from AGENTS.md** once addressed
 
 
 ## Development Guidelines
@@ -152,6 +154,10 @@ Create production-ready code that will work perfectly once the environment is pr
 
 The code you write today will be the foundation of a powerful browser automation system tomorrow!
 ```
+## Workflow Requirements
+
+1. **Update `DEV_PLAN.md`** – Check off tasks as they are completed.
+2. **Prune `AGENTS.md`** – Remove setup instructions once satisfied.
 
 ## Project Status (Development)
 
