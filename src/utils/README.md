@@ -1,3 +1,3 @@
 # utils
 
-This directory contains modules for utils.
+Shared utility modules such as the `Logger` used across the project.

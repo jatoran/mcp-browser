@@ -38,11 +38,11 @@
 
 - [x] **Event System** - Implement core event bus in `events/EventBus.ts` and `events/EventTypes.ts`. Create publish-subscribe mechanism for inter-module communication.
 
-- [ ] **Logger Module** - Build logging system in `utils/Logger.ts` with level-based filtering. Create separate formatters in `utils/formatters/`.
+- [x] **Logger Module** - Build logging system in `utils/Logger.ts` with level-based filtering. Create separate formatters in `utils/formatters/`.
 
-- [ ] **Config Manager** - Develop configuration system in `config/ConfigManager.ts` and `config/schemas/`. Support environment variables and file-based config.
+- [x] **Config Manager** - Develop configuration system in `config/ConfigManager.ts` and `config/schemas/`. Support environment variables and file-based config.
 
-- [ ] **Base Interfaces** - Define core interfaces in `interfaces/` including IModule, IPlugin, ITask, IResult. Keep each interface in its own file.
+- [x] **Base Interfaces** - Define core interfaces in `interfaces/` including IModule, IPlugin, ITask, IResult. Keep each interface in its own file.
 
 ### Wave 1.2: MCP Protocol Foundation
 **Goal:** Implement MCP protocol basics
