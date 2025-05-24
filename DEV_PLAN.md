@@ -48,15 +48,15 @@
 **Goal:** Implement MCP protocol basics
 
 **Tasks:**
-1. **MCP Types** - Define MCP protocol types in `mcp/types/`. Include Request, Response, Tool, Resource, and Error types.
+- [x] **MCP Types** - Define MCP protocol types in `mcp/types/`. Include Request, Response, Tool, Resource, and Error types.
 
-2. **MCP Client Base** - Create abstract MCP client in `mcp/client/BaseClient.ts`. Handle connection lifecycle and message framing.
+- [x] **MCP Client Base** - Create abstract MCP client in `mcp/client/BaseClient.ts`. Handle connection lifecycle and message framing.
 
-3. **MCP Server Base** - Build abstract MCP server in `mcp/server/BaseServer.ts`. Implement tool registration and request routing.
+- [x] **MCP Server Base** - Build abstract MCP server in `mcp/server/BaseServer.ts`. Implement tool registration and request routing.
 
-4. **Protocol Handler** - Develop message serialization in `mcp/protocol/Handler.ts` and `mcp/protocol/Validator.ts`.
+- [x] **Protocol Handler** - Develop message serialization in `mcp/protocol/Handler.ts` and `mcp/protocol/Validator.ts`.
 
-5. **Connection Manager** - Create connection pooling in `mcp/connections/Manager.ts` with health checking.
+- [x] **Connection Manager** - Create connection pooling in `mcp/connections/Manager.ts` with health checking.
 
 ### Wave 1.3: Foundation Testing
 **Goal:** Test core infrastructure
