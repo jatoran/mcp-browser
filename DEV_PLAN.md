@@ -36,7 +36,7 @@
 **Tasks:**
 - [x] **Project Structure** - Create directory layout, base TypeScript config, and module boundaries. Define folder structure for components, interfaces, utils, and tests.
 
-- [ ] **Event System** - Implement core event bus in `events/EventBus.ts` and `events/EventTypes.ts`. Create publish-subscribe mechanism for inter-module communication.
+- [x] **Event System** - Implement core event bus in `events/EventBus.ts` and `events/EventTypes.ts`. Create publish-subscribe mechanism for inter-module communication.
 
 - [ ] **Logger Module** - Build logging system in `utils/Logger.ts` with level-based filtering. Create separate formatters in `utils/formatters/`.
 
