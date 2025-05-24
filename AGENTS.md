@@ -166,5 +166,6 @@ Current progress:
 * `package.json` and `tsconfig.json` have been configured.
 * Core event system implemented.
 * Logger, configuration manager, and base interfaces added.
+* Browser config, factory, session manager, page controller and selectors implemented.
 
 ---
