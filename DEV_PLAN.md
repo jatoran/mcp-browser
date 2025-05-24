@@ -75,15 +75,15 @@
 **Goal:** Wrap browser automation library
 
 **Tasks:**
-1. **Browser Factory** - Create browser instance factory in `browser/factory/BrowserFactory.ts`. Support multiple browser types.
+- [x] **Browser Factory** - Create browser instance factory in `browser/factory/BrowserFactory.ts`. Support multiple browser types.
 
-2. **Session Manager** - Implement session lifecycle in `browser/sessions/SessionManager.ts` and `browser/sessions/Session.ts`.
+- [x] **Session Manager** - Implement session lifecycle in `browser/sessions/SessionManager.ts` and `browser/sessions/Session.ts`.
 
-3. **Page Controller** - Build page abstraction in `browser/page/PageController.ts` with navigation and state tracking.
+- [x] **Page Controller** - Build page abstraction in `browser/page/PageController.ts` with navigation and state tracking.
 
-4. **Element Selector** - Develop selector strategies in `browser/selectors/`. Include CSS, XPath, and text-based selection.
+- [x] **Element Selector** - Develop selector strategies in `browser/selectors/`. Include CSS, XPath, and text-based selection.
 
-5. **Browser Config** - Define browser options in `browser/config/BrowserConfig.ts` and viewport settings.
+- [x] **Browser Config** - Define browser options in `browser/config/BrowserConfig.ts` and viewport settings.
 
 ### Wave 2.2: Browser MCP Server
 **Goal:** Expose browser functionality via MCP
