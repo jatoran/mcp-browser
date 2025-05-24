@@ -166,5 +166,6 @@ Current progress:
 * `package.json` and `tsconfig.json` have been configured.
 * Core event system implemented.
 * Logger, configuration manager, and base interfaces added.
+* Foundation tests and mock MCP server implemented.
 
 ---
