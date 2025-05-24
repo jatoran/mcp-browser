@@ -62,10 +62,10 @@
 **Goal:** Test core infrastructure
 
 **Tasks:**
-1. **Event System Tests** - Unit tests for event bus functionality
-2. **Config Tests** - Configuration loading and validation tests
-3. **MCP Protocol Tests** - Message serialization and validation tests
-4. **Mock MCP Server** - Test server for development in `test/mocks/`
+- [x] **Event System Tests** - Unit tests for event bus functionality
+- [x] **Config Tests** - Configuration loading and validation tests
+- [x] **MCP Protocol Tests** - Message serialization and validation tests
+- [x] **Mock MCP Server** - Test server for development in `test/mocks/`
 
 ---
 
