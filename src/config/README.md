@@ -1,3 +1,3 @@
 # config
 
-This directory contains modules for config.
+Configuration management utilities including the `ConfigManager` and schema definitions.
